@@ -121,7 +121,8 @@ hr {
 
 
 body {
-    background-color: lightslategray;
+    /*background-color: lightslategray;*/
+    background: #607d8b;
     font-family: sans-serif, Microsoft Yahei, Helvetica Neue;
     zoom: 80%;
 }
@@ -205,9 +206,8 @@ progress::-moz-progress-value {
     position: relative;
     margin: 0 auto;
 
-    width: 1050px;
-    height: 1550px;
-    background-color: white;
+    width: 88%;
+    height: 1200px;
 
 }
 
@@ -218,15 +218,16 @@ progress::-moz-progress-value {
     background-color: whitesmoke;
     padding-left: 20px;
     padding-right: 20px;
+    position: fixed;
 }
 
 .main {
 
     position: relative;;
-    margin-left: 360px;
+    margin-left: 390px;
     min-height: 100%;
-    padding: 20px;
-
+    padding: 20px 30px;
+    background: white;
 }
 
 .info-header:hover {
@@ -287,3 +288,4 @@ ul li{
 
 }
 
+.ex_con{margin-left: 20px}
